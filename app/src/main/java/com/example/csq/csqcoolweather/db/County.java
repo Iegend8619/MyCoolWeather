@@ -1,10 +1,12 @@
 package com.example.csq.csqcoolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by legend on 9/20/2017.
  */
 
-public class County {
+public class County extends DataSupport{
     private int id;
     private String countyName;
     private String weatherId;
